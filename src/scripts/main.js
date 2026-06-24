@@ -3,11 +3,11 @@
 const table = document.querySelector('table');
 const rows = table.rows;
 
-for (let i = 0; i < rows.length; i++) {
-  const firstCell = rows[i].cells[0].cloneNode(true);
+// for (let i = 0; i < rows.length; i++) {
+//   const firstCell = rows[i].cells[0].cloneNode(true);
 
-  rows[i].append(firstCell);
-}
+//   rows[i].append(firstCell);
+// }
 
 for (let i = 0; i < rows.length; i++) {
   const row = rows[i];
